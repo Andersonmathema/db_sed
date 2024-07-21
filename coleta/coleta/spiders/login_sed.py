@@ -9,8 +9,8 @@ class LoginSedSpider(scrapy.Spider):
         return scrapy.FormRequest.from_response(
             response,
             formdata={
-                'name': 'rg466709742sp',
-                'senha': '@Antero89'                
+                'name': '',
+                'senha': ''                
             },
             callback=self.after_login
         )
